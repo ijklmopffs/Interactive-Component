@@ -1,0 +1,80 @@
+body {
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+}
+.container {
+  background-color: hsl(213, 19%, 18%);
+  width: 260px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  margin-block-start: 200px;
+  margin-block-end: 50px;
+}
+.img {
+  border-radius: 50%;
+  padding: 8px;
+  width: 13px;
+  background-color: hsl(213, 7%, 24%);
+  cursor: pointer;
+}
+h2 {
+  margin: 0;
+  margin-block-start: 8px;
+  color: white;
+}
+p {
+  color: hsl(216, 12%, 63%);
+  font-size: 0.8em;
+  margin: 0;
+  margin-block-start: 5px;
+}
+.rating {
+  margin-block-start: 10px;
+}
+span {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: hsl(213, 7%, 24%);
+  color: hsl(216, 12%, 63%);
+  margin-block-end: 10px;
+  width: 13px;
+  text-align: center;
+  cursor: pointer;
+}
+span:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+span + span {
+  margin-inline-start: 23px;
+}
+button {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 5px;
+  font-weight: 800;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.selected {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.result {
+  color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  /* background-color: hsl(213, 7%, 24%); */
+  padding: 2px;
+}
