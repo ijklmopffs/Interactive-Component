@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-sI understood DOM manipulation all over again, and I am grateful for that
+I understood DOM manipulation all over again, and I am grateful for that
 
 ## Author
 
